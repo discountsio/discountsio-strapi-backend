@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "c1",
+  "info": {
+    "name": "d1"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    }
+  }
+}

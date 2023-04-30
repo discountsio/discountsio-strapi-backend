@@ -1,0 +1,15 @@
+{
+  "kind": "collectionType",
+  "collectionName": "amazon",
+  "info": {
+    "name": "amazon",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {}
+}

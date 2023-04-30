@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "data",
+  "info": {
+    "name": "Data"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "data": {
+      "type": "string"
+    }
+  }
+}

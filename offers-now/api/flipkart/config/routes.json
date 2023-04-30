@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/flipkarts",
+      "handler": "flipkart.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/flipkarts/count",
+      "handler": "flipkart.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/flipkarts/:id",
+      "handler": "flipkart.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/flipkarts",
+      "handler": "flipkart.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/flipkarts/:id",
+      "handler": "flipkart.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/flipkarts/:id",
+      "handler": "flipkart.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

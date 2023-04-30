@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "main",
+  "info": {
+    "name": "main",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "text"
+    },
+    "image_id": {
+      "type": "string"
+    },
+    "platform": {
+      "type": "string"
+    },
+    "offer_percentage": {
+      "type": "integer"
+    },
+    "old_price": {
+      "type": "decimal"
+    },
+    "price_now": {
+      "type": "decimal"
+    },
+    "rating": {
+      "type": "decimal"
+    },
+    "backend_image_url": {
+      "type": "string"
+    }
+  }
+}

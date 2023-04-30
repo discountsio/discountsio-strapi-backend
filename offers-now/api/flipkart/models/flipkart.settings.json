@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "flipkart",
+  "info": {
+    "name": "flipkart"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "list_page_link": {
+      "type": "string"
+    },
+    "product_link": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "discount_percentage": {
+      "type": "string"
+    },
+    "prize_now": {
+      "type": "string"
+    },
+    "original_prize": {
+      "type": "string"
+    },
+    "emi": {
+      "type": "string"
+    }
+  }
+}
